@@ -1,5 +1,6 @@
 import tls_client, json, random, string, threading, yaml
 from modules.utilities import get_useragent, build_xsp, get_version, get_username
+from colorfy import color
 import os
 from modules.hcaptcha import solve_captcha
 
